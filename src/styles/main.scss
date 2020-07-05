@@ -1,0 +1,13 @@
+$bg: blue;
+
+body {
+	background: $bg;
+}
+
+.container {
+	background: yellow;
+
+	&__item {
+		background: red;
+	}
+}
